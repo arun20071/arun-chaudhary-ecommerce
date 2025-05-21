@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: arun-chaudhary-ecommerce
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: node app.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+    autoDeploy: true
