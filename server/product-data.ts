@@ -1,0 +1,102 @@
+import { Product } from "@shared/schema";
+
+const productData: Product[] = [
+  {
+    id: "smartphone-premium",
+    name: "Premium Smartphone",
+    description: "Cutting-edge technology with a stunning display and powerful camera system.",
+    longDescription: "Experience the future of mobile technology with our Premium Smartphone. Featuring a vibrant high-resolution display, lightning-fast processor, and a revolutionary camera system that captures stunning photos even in low light. With all-day battery life and the latest security features, this smartphone is designed for those who demand the best.",
+    price: 899,
+    originalPrice: null,
+    image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=350&q=80",
+    rating: 45,
+    reviewCount: 42,
+    badge: "NEW",
+    category: "electronics",
+    model: "PS-2023",
+    weight: "180g",
+    dimensions: "146 x 72 x 7.4 mm"
+  },
+  {
+    id: "smartwatch",
+    name: "Smart Watch",
+    description: "Track your fitness and stay connected with this stylish smartwatch.",
+    longDescription: null,
+    price: 249,
+    originalPrice: 299,
+    image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=350&q=80",
+    rating: 40,
+    reviewCount: 29,
+    badge: "-15%",
+    category: "electronics",
+    model: "SW-200",
+    weight: "42g",
+    dimensions: "44 x 38 x 10.7 mm"
+  },
+  {
+    id: "wireless-earbuds",
+    name: "Wireless Earbuds",
+    description: "Immersive sound with noise cancellation and long battery life.",
+    longDescription: null,
+    price: 129,
+    originalPrice: null,
+    image: "https://images.unsplash.com/photo-1605464315542-bda3e2f4e605?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=350&q=80",
+    rating: 45,
+    reviewCount: 98,
+    badge: null,
+    category: "electronics",
+    model: "WE-100",
+    weight: "5.4g per bud",
+    dimensions: "24 x 16 x 17 mm per bud"
+  },
+  {
+    id: "digital-camera",
+    name: "Digital Camera",
+    description: "Capture life's moments with stunning clarity and professional quality.",
+    longDescription: null,
+    price: 549,
+    originalPrice: null,
+    image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=350&q=80",
+    rating: 40,
+    reviewCount: 56,
+    badge: "POPULAR",
+    category: "electronics",
+    model: "DC-Pro2",
+    weight: "390g",
+    dimensions: "120 x 70 x 40 mm"
+  },
+  {
+    id: "premium-sneakers",
+    name: "Premium Sneakers",
+    description: "Stylish and comfortable sneakers for everyday wear.",
+    longDescription: null,
+    price: 129,
+    originalPrice: null,
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=350&q=80",
+    rating: 35,
+    reviewCount: 37,
+    badge: "LIMITED",
+    category: "fashion",
+    model: null,
+    weight: "310g per shoe",
+    dimensions: "Available in sizes 7-13 US"
+  },
+  {
+    id: "bluetooth-speaker",
+    name: "Bluetooth Speaker",
+    description: "Powerful sound in a portable design with 20 hours of battery life.",
+    longDescription: null,
+    price: 79,
+    originalPrice: 99,
+    image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=350&q=80",
+    rating: 50,
+    reviewCount: 84,
+    badge: "-20%",
+    category: "electronics",
+    model: "BS-X1",
+    weight: "720g",
+    dimensions: "180 x 80 x 80 mm"
+  }
+];
+
+export default productData;
